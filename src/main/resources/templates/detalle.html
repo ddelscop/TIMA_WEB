@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Detalle de el Cliente</h1>
+	<h3 th:text="'Empresa: ' + ${cliente.nomCli}"></h3>
+	<h3 th:text="'Contacto: ' + ${cliente.contacto}"></h3>
+	<h3 th:text="'Dirección: ' + ${cliente.direccion}"></h3>
+</body>
+</html>
